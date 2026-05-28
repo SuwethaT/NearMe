@@ -1,0 +1,20 @@
+{% load static %}
+<html>
+    <head>
+        <title>
+            Image Map for my Area
+        </title>
+    </head>
+    <body bgcolor="lightblue">
+        <h1 align="center"><b>CHENNAI</b></h1>
+        <center><img src="{% static 'images/map.png' %}" usemap="#image-map">
+        <map name="image-map">
+            <area target="" alt="INOX National" title="INOX National" href="/inox/" coords="1367,153,16" shape="circle">
+            <area target="" alt="SRM Easwari Engineering College" title="SRM Easwari Engineering College" href="/srm/" coords="1100,548,24" shape="circle">
+            <area target="" alt="Saravana Stores" title="Saravana Stores" href="/saravana/" coords="725,534,22" shape="circle">
+            <area target="" alt="Guru Sthalam" title="Guru Sthalam" href="/temple/" coords="513,560,24" shape="circle">
+            <area target="" alt="Wetland Eco-park" title="Wetland Eco-park" href="/eco-park/" coords="287,342,20" shape="circle">
+        </map></center>
+
+    </body>
+</html>
